@@ -1,5 +1,102 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.container {
+	background-color: #ecf1f2;
+	padding: 20px 10px;
+	display: grid;
+	grid-template-rows: 50px;
+	grid-gap: 20px ;
+}
 
+.item {
+	font-size: 16px;
+	vertical-align: middle;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+
+.grid1 {
+	width: 100%;
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.grid1-1 {
+	background-color: #fff;
+}
+
+.grid2 {
+	width: 50%;
+	float: left;
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.grid2-1 {
+	background-color: #fff;
+}
+
+.grid3 {
+	width: calc(100% / 3);
+	float: left;
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.grid3-1 {
+	background-color: #fff;
+}
+
+.grid4 {
+	width: 25%;
+	float: left;
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.grid4-1 {
+	background-color: #fff;
+}
+
+.grid5 {
+	width: 20%;
+	float: left;
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.grid5-1 {
+	background-color: #fff;
+}
+
+.grid6 {
+	width: calc(100% / 6);
+	float: left;
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.grid6-1 {
+	background-color: #fff;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
 /* 回答はここに書いてね */
