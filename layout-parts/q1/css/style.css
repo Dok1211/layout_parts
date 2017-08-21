@@ -5,6 +5,7 @@ ul {
 	width: 900px;
 	background-color: #eff3f4;
 	padding: 20px;
+	margin: 0 auto;
 }
 
 ul > li {
