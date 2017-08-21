@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-ul {
+.container {
 	width: 900px;
 	background-color: #eff3f4;
 	padding: 20px;
 	margin: 0 auto;
 }
 
-ul > li {
+.textlist {
 	float: left;
 	background-color: #3274ae;
 	padding: 20px;
 	margin-left: 20px;
 }
 
-ul > li:first-child {
+.textlist:first-child {
 	margin-left: 0;
 }
 
