@@ -44,6 +44,7 @@
 	justify-content: center;
 	align-items: center;
 }
+
 .q5-2__text2 {
 	padding: 10px;
 	background-color: #fff;
@@ -61,7 +62,7 @@
 	right: 0;
 	left: 0;
 	bottom: 0;
-	margin: auto auto;
+	margin: auto;
 }
 
 .q5-3__text2 {
