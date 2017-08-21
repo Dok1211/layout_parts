@@ -3,51 +3,41 @@
 /* 回答はここに書いてね */
 .table {
 	display: table;
-	table-layout: fixed;
+/*	table-layout: fixed;*/
+	width: 100%;
+	box-sizing: border-box;
 }
 
-.bar1 {
+.bar {
+	padding: 20px;
+	display: table-cell;
+	text-align: center;
+}
+
+.is-pink {
 	width: 100px;
 	background-color: #fdc8bf;
-	padding: 20px;
-	text-align: center;
 }
 
-.bar2 {
-	display: table-cell;
-	width: 100%;
+.is-purple {
 	background-color: #e0abd9;
-	padding: 20px;
-	text-align: center;
 }
 
-.bar3 {
+.is-blue {
 	width: 100px;
 	background-color: #b6d8ed;
-	padding: 20px;
-	text-align: center;
 }
 
-.bar4 {
-	display: table-cell;
-	width: 50%;
+.is-orange {
 	background-color: #e5d32e;
-	padding: 20px;
-	text-align: center;
 }
 
-.bar5 {
-	display: table-cell;
-	width: 50%;
+.is-yellow {
 	background-color: #e4e67c;
-	padding: 20px;
-	text-align: center;
 }
 
-.bar6 {
+.is-green {
 	width: 500px;
 	background-color: #8fdcad;
-	padding: 20px;
-	text-align: center;
 }
 /* 回答はここに書いてね */
