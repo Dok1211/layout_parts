@@ -51,6 +51,7 @@ input[type="text"]:focus {
 .q7__radio {
 	cursor: pointer;
 }
+
 .q7__radio__btn {
 	display: none;
 }
